@@ -1,0 +1,44 @@
+{
+  "name": "ライブラリインポータ―",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "BOOTH持ってるよリストにBOOTHのライブラリをインポートします",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://motteruyo.com/*"
+      ],
+      "js": [
+        "dist/list_page.js"
+      ],
+      "css": [
+        "css/bulma.css",
+        "css/list_page.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://accounts.booth.pm/library*"
+      ],
+      "js": [
+        "dist/library_page.js"
+      ],
+      "css": [
+        "css/bulma.css"
+      ]
+    }
+  ],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "icons": {
+    "16": "icon/icon16.png",
+    "48": "icon/icon48.png",
+    "128": "icon/icon128.png",
+    "512": "icon/icon512.png"
+  }
+}
