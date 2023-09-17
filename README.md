@@ -24,6 +24,9 @@ BOOTHのライブラリのアイテムを[BOOTH持ってるよリスト](https:/
 7. エラーなどがなければ拡張機能に関する情報が表示される
 
 ## 使用方法
+### 参考動画
+https://github.com/JanMaki/LibraryImporter/assets/44093615/11d62501-d52f-4aa9-b91d-fdeb90a79200
+### 説明
 1. [BOOTH持ってるよリスト](https://motteruyo.com/)で、インポート先のリストを開く
 2. "BOOTHのライブラリをインポート"ボタンを押す
 ![image](https://github.com/JanMaki/LibraryImporter/assets/44093615/217da427-b028-43df-8a78-d83186c2c5b9)
