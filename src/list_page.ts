@@ -206,7 +206,13 @@ function drawMask() {
 
 //backgroundからのメッセージを受け取る
 chrome.runtime.onMessage.addListener(async (message) => {
-    console.log(message)
+    //リストのページじゃない時のみ有効
+    if (!location.href.startsWith("https://motteruyo.com/lists/")) return
+
+    //自分のページじゃない時は終わり
+    const isOwnPage = document.querySelector("body > div > div.MuiBox-root > main > div > div > a") !== null
+    if (isOwnPage) return
+
     if (message === "updatePage") {
         //ボタンを挿入
         const buttonPosition = document.querySelector("body > div > div.MuiBox-root > main > div")
