@@ -1,5 +1,5 @@
 # LibraryImporter
-BOOTHのライブラリのアイテムを[BOOTH持ってるよリスト](https://motteruyo.com/)に自動でインポートするEdige/Chrome向けの拡張機能です。
+BOOTHのライブラリのアイテムを[BOOTH持ってるよリスト](https://motteruyo.com/)に自動でインポートするEdge/Chrome向けの拡張機能です。
 
 ## 動作確認ブラウザ
 ・Microsoft Edge  
