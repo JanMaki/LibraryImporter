@@ -33,5 +33,11 @@ BOOTHのライブラリのアイテムを[BOOTH持ってるよリスト](https:/
 5. 処理が終了すると画像のようなメッセージが表示される
 ![image](https://github.com/JanMaki/LibraryImporter/assets/44093615/2fe51843-6425-47b2-8c2f-056a73d3b056)
 6. 以上でインポート終了
+### 参考動画
+
+
+https://github.com/JanMaki/LibraryImporter/assets/44093615/50068fb6-bf5b-4f03-b587-9b0776c3c500
+
+
 
 
